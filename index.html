@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=inter' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/4a3fcfc5e4.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio Juhi Singh</title>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CL8GSDESMB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CL8GSDESMB');
+</script>
+
+<body class="flex-column">
+    <div id="popupWindow" class="popupWindow">
+        <div id="popupWindowContentBox" class="popupWindowContentBox">
+            <div id='popupWindowContent' class="popupWindowContent">
+                
+            </div>
+        </div>
+    </div>
+    <div id = 'headerHeadlineBox' class ="header_headline_container flex-column">
+        <header class="flex-row">
+            <div class="logo-container">
+                <img id="my-img" style="width: 200px;height: 200px;" src="./images/Screenshot_20240227_001123.jpg" alt="logo">
+            </div>
+            <nav>
+                <div id="openCloseMobileMenuButton" class="openCloseMobileMenuButton">
+                    <i class="fa-solid fa-bars" id="openMobileMenu"></i>
+                   <i class="fa-solid fa-xmark" id="closeMobileMenu"></i>
+                </div>
+                <ul id="navMenu" class="navMenu flex-column">
+                    <li><a href="#recentWorks" class="navMenuLink">Portfolio</a></li>
+                    <li><a href="#aboutMe" class="navMenuLink">About</a></li>
+                    <li><a href="#contactMe" class="navMenuLink">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Headline section start -->
+        <section id="headLine" class="headline flex-column">
+            <div class="welcome_text">
+                <h1 class="mobile_version"><span class = "hi">Hi<span><img src="./Icons/hand.png" alt="hi" class="hi">,</span> my name is</span><br>Juhi Singh<br><span class = "qualification">I’m a <div class='console-container'><span id='text-mobile'></span><div class='console-underscore' id='console-mobile'>&#95;</div></div></span></h1>
+
+                <h1 class="desktop_version"><span class = "hi">Hi <span><img src="./Icons/hand.png" alt="hi" class="hi">,</span> my name is</span><br>Juhi Singh<br><span class = "qualification">I’m a <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div></span></h1>
+            </div>
+            <div class="introduction_text">
+                <p class="">You have an idea... let's build it together! Explore my portfolio and  If my work and experience resonate with your vision, don’t hesitate to contact me.</p>
+            </div>
+            <div class="social_media_icons flex-row">
+                <ul class="flex-row bubble-list">
+                    <li><div class="ball"><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a></div></li>
+                    <li><div class="ball"><a href="https://github.com/" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></div></li>
+                </ul>
+            </div>
+            <div class="action">
+                <a href="#recentWorks" class="icon"><i class="fa-solid fa-angle-down"></i></a>
+            </div>
+        </section>
+        <!--Headline section end-->
+    </div>  
+    <!-- Recent Works section start -->
+    <section id = 'recentWorks' class="recent_works">
+        <h2 class="recent_work_primary_text">My <span id="break_point">Project</span> </h2>
+        <div class="indicator"></div>
+        <div id="cardWorks" class="card_works flex-column">
+        <!-- This content is created dynamically -->
+        </div>
+    </section>
+    <!--Recent works section end-->
+    <!-- About me section start -->
+    <section id="aboutMe" class="about_me flex-column">
+        <div class="about_me_text flex-column">
+            <h2 class="about_primary_text">About me</h2>
+            <div class="indicator"></div>
+            <div class="about_supporting-text">
+                Hello everyone, I am Juhi Singh upcoming web developer who loves to create and beautify websites. <br>
+                I'm currently doing training in Qspider Hyderabad and i am  Freshar.I am responsible and Hardworking person. <br> i am able to work well
+                both in team environment as well as using own initiative.
+            </div>
+            <div class="resume_button button"><a href="./JuhiSinghResume (1).pdf" target="_blank" rel="noopener">Get my resume</a></div>
+        </div>
+        <div class="about_cards">
+            <ul class="about_card_list flex-column">
+                <li class="card_list">
+                    <div class="card_list_icon flex-row"><img src="Icons/icon-languages.png" alt="languages icon"></div>
+                    <div class="about_card_title">Languages</div>
+                    <ul class="about_card_tags flex-row">
+                        <li class = "flex-column"><img src="Icons/javascript3d.png" alt="JavaScript"><h3>JavaScript</h3></li>
+                        <!-- <li class = "flex-column"><img src="Icons/typescript.png" alt="python"><h3>TypeScript</h3></li> -->
+                        <!-- <li class = "flex-column"><img src="Icons/php.png" alt="PHP"><h3>PHP</h3></li> -->
+                        <li class = "flex-column"><img src="Icons/html.png" alt="Html"><h3>HTML</h3></li>
+                        <li class = "flex-column"><img src="Icons/css.png" alt="CSS"><h3>CSS</h3></li>
+                        <li class = "flex-column"><img style="height: 40px;width: 30px;" src="./images/sql.jfif" alt="Sql"><h3>SQL</h3></li>
+                        <li class = "flex-column"><img style="height: 40px;" src="./images/java.png" alt="Ruby"><h3>JAVA</h3></li>
+                    </ul>
+                </li>
+                <li class="card_list">
+                    <div class="card_list_icon flex-row frameworks"><img src="Icons/frameworks.png" alt="frameworks icon"></div>
+                    <div class="about_card_title">Frameworks</div>
+                    <ul class="about_card_tags flex-row">
+                        <li class = "flex-column"><img style="height: 30px;" src="./images/bootstrap-logo.png" alt="Bootstrap"><h3>Bootstrap</h3></li>
+                        <!-- <li class = "flex-column"><img src="Icons/nextjs.png" alt="react"><h3>Next.js</h3></li> -->
+                        <!-- <li class = "flex-column"><img src="Icons/nodejs.png" alt="react"><h3>Node.js</h3></li> -->
+                        <!-- <li class = "flex-column"><img src="Icons/expressjs.png" alt="react"><h3>Express.js</h3></li> -->
+                        <!-- <li class = "flex-column"><img src="Icons/ruby_on_rails.png" alt="Ruby on rails"><h3>Rails</h3></li> -->
+                        <!-- <li class = "flex-column"><img src="Icons/Rspec.png" alt="Rspec"><h3>Rspec</h3></li> -->
+                        <!-- <li class = "flex-column"><img src="Icons/capybara.png" alt="capybara"><h3>Capybara</h3></li> -->
+                        <!-- <li class = "flex-column"><img src="Icons/selenium.svg" alt="selenium"><h3>Selenium</h3></li> -->
+                        <!-- <li class = "flex-column"><img src="Icons/tailwind.png" alt="Bootstrap"><h3>Tailwindcss</h3></li> -->
+                    </ul>
+                </li>
+                <li class="card_list">
+                    <div class="card_list_icon flex-row"><img src="Icons/skills.png" alt="skills icon"></div>
+                    <div class="about_card_title">Tools</div>
+                    <ul class="about_card_tags flex-row">
+                        <li class = "flex-column"><img style="height: 30px;" src="./images/vs code.png" alt="api"><h3> VSCode</h3></li>
+                        <li class = "flex-column"><img style="height: 30px;"  src="./images/eclips.png" alt="Bootstrap"><h3>Eclipse</h3></li>
+                        <li class = "flex-column"><img style="height: 30px;"  src="./images/netbeans.jfif" alt="DataBase"><h3>NetBeans</h3></li> 
+                        <li class = "flex-column"><img style="height: 30px;"  src="./images/firebase.png" alt="api"><h3>Firebase</h3></li>                       
+                        <li class = "flex-column"><img style="height: 30px;"  src="./images/github.png" alt="version control"><h3>Github</h3></li>
+                        <li class = "flex-column"><img style="height: 30px;"  src="./images/netlify.png" alt="CLI"><h3>Netlify</h3></li>
+                        <!-- <li class = "flex-column"><img src="Icons/heroku.png" alt="Heroku"><h3>Heroku</h3></li> -->
+                        <!-- <li class = "flex-column"><img src="Icons/scrum.png" alt="api"><h3>Scrum</h3></li> -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="contactMe" class="about_bottom flex-column">
+            <div class="text_box">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</div>
+            <form action="https://formspree.io/f/xeqwroeb" class="contactForm" method="post">
+                <ul class="flex-column contactFormList" id="contactFormList">
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="user_name" id="name" placeholder="Full name" maxlength="30" required class="name">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email address" required class="email">
+                    </li>
+                    <li>
+                        <label for="textarea">Text area</label>
+                        <textarea name="textarea" id="textarea" maxlength="500" required  placeholder="Hey I’d like to connect to..." class="textarea"></textarea>
+                    </li>
+                    <li>
+                        <button type="submit" class="getInTouch button">Get in touch</button>
+                    </li>
+                </ul>
+            </form>
+            <div class="my_email">juhi2721@gmail.com</div>
+            <!-- <div class="social_media_icons flex-row">
+                <ul class="flex-row">
+                    <li><a href="https://twitter.com/Momo_yde" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/Momo-87" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://medium.com/@momochristian87" target="_blank" rel="noopener"><i class="fa-brands fa-medium"></i></a></li>
+                    <li><a href="https://www.facebook.com/romarik.momo/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://wellfound.com/u/christian-momo" target="_blank" rel="noopener"><i class="fa-brands fa-angellist"></i></a></li>
+                </ul>
+            </div>
+            <div class="end_bar"></div>
+        </div> -->
+    </section>
+    <!-- About me section end -->
+    <footer class="footer">
+        <div class="desktop_end_bar"></div>
+        <div class="desktop_social_media_icons flex-row">
+            <ul class="flex-row">
+                <!-- <li><a href="https://twitter.com/Momo_yde" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a></li> -->
+                <li><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></li>
+                <!-- <li><a href="https://medium.com/@momochristian87" target="_blank" rel="noopener"><i class="fa-brands fa-medium"></i></a></li> -->
+                <!-- <li><a href="https://www.facebook.com/romarik.momo/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a></li> -->
+                <!-- <li><a href="https://wellfound.com/u/christian-momo" target="_blank" rel="noopener"><i class="fa-brands fa-angellist"></i></a></li> -->
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
